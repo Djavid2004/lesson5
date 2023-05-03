@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vse{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid red;
+    position: relative;
+}
+.vse>div{
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: absolute;
+}
+.box1{
+ background-color: aqua;
+ 
+ top: 10px;
+ left:-30px;
+}
+.box2{
+background-color:blue;
+left: 15px;
+top: 120px;
+
+}
+.box3{
+background-color: brown;
+left: 15px;
+top: 230px;
+}
+.box4{
+background-color: blueviolet;
+left: 15px;
+top: 340px;
+}
+p{
+    text-align: center;
+}

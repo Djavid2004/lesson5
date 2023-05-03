@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bol{
+    width: 500px;
+    height: 200px;
+    margin: 50px auto;
+    border  : 2px solid gray;
+    position: relative;
+    
+}
+.kvadrat{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    top: 0px ;
+    right: 0;
+    
+}
+.p1{
+    color: aliceblue;
+    padding: 10px  ;
+}
+.p2{
+    padding-top:15px ;
+}
